@@ -30,7 +30,7 @@ def get_english_meaning(path, emoticon)
   emotion = list.select{ |key, value| 
     value[:japanese] == emoticon 
   }
-  binding.pry
+  
   if emotion == {}
     "Sorry, that emoticon was not found"
   else
