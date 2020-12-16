@@ -17,7 +17,7 @@ def get_japanese_emoticon(path, emoticon)
   emotion = list.select{ |key, value| 
     value[:english] == emoticon
   }
-  bindng.pry
+  binding.pry
   if emotion == {}
     "Sorry, that emoticon was not found"
   else 
