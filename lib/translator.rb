@@ -21,7 +21,7 @@ def get_japanese_emoticon(path, emoticon)
   if emotion == {}
     "Sorry, that emoticon was not found"
   else 
-    emotion.first[0][:japanese]
+    emotion[emotion.first[0]][:japanese]
   end
 end
 
